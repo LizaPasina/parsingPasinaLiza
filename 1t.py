@@ -2,7 +2,6 @@ import mysql.connector
 
 from object import Phone
 
-
 class Database:
     def __init__(self):
         self.con = mysql.connector.connect(host='gendalf.cf', port=3308, user='root', password='1234567890', database='Pasina')
@@ -16,5 +15,3 @@ class Database:
 
     def truncate(self):
         self.cur.execute('TRUNCATE phones')
-
-
