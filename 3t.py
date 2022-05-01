@@ -4,7 +4,6 @@ class Phone:
         self.price = price
         self.url = url
 
-
 class PhoneList:
     def __init__(self):
         self.phones_list = []
