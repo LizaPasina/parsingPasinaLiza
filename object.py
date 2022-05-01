@@ -7,7 +7,7 @@ class Phone:
 
 class PhoneList:
     def __init__(self):
-        self.phone_list = []
+        self.phones_list = []
 
-    def add(self, phone: Phone):
-        self.phone_list.append(phone)
+    def add(self, phones: Phone):
+        self.phones_list.append(phones)
